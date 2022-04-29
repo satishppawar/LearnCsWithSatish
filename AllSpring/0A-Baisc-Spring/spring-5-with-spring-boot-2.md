@@ -60,6 +60,6 @@ END LEC 8
 
 9. Lecture 9
 
-- Alien need Laptop to code
+- Alien need Laptop to code. Observe errors in Alien class
 
 
