@@ -53,5 +53,13 @@ public class Alien {
 }
 ```
 
-- Now code will end
+- Now code will run
+
+END LEC 8
+-------
+
+9. Lecture 9
+
+- Alien need Laptop to code
+
 
