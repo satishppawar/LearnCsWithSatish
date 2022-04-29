@@ -62,4 +62,6 @@ END LEC 8
 
 - Alien need Laptop to code. Observe errors in Alien class
 
+- Use @Autowired  to inject laptop class inside the Alien
+
 
