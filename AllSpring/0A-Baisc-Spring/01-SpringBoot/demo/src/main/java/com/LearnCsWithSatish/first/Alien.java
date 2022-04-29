@@ -1,7 +1,10 @@
 package com.LearnCsWithSatish.first;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Alien {
-public void code() {
-	System.out.println("I am coding..");
-}
+	public void code() {
+		System.out.println("I am coding..");
+	}
 }

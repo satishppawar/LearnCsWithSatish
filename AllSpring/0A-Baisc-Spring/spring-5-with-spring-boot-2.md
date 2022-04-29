@@ -24,4 +24,34 @@
 - ApplicationContext
 - getBean()
 
+```java
+@SpringBootApplication
+public class DemoApplication {
+
+	public static void main(String[] args) {
+		ApplicationContext context = SpringApplication.run(DemoApplication.class, args);
+		Alien obj = context.getBean(Alien.class);
+		obj.code();
+	}
+
+}
+```
+
+- Run code and notice error `Exception in thread "main" org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.LearnCsWithSatish.first.Alien' available
+`
+- Spring is responsible to create an object of `Alien` class. 
+- Add @Component annotation as below so that Spring will know that it is responsible to create object of `Alien` and not programmer (you)
+
+```java
+import org.springframework.stereotype.Component;
+
+@Component
+public class Alien {
+	public void code() {
+		System.out.println("I am coding..");
+	}
+}
+```
+
+- Now code will end
 
